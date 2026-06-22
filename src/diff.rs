@@ -22,7 +22,7 @@ const MAX_CRC_COLLISIONS: u32 = 1024;
 pub enum DiffError {
     /// Indicates the signature is invalid or unsupported
     InvalidSignature,
-    /// Indicates an IO error occured when writing the delta
+    /// Indicates an IO error occurred when writing the delta
     Io(io::Error),
 }
 
